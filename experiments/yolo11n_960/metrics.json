@@ -1,0 +1,34 @@
+{
+  "detection_validation_epoch_30": {
+    "images": 134,
+    "precision": 0.85593,
+    "recall": 0.80177,
+    "map_50": 0.88035,
+    "map_50_95": 0.45651
+  },
+  "counting_validation": {
+    "images": 134,
+    "mae": 3.9402985074626864,
+    "rmse": 5.40867186500379,
+    "bias": 2.1940298507462686,
+    "mean_true": 42.23880597014925,
+    "mean_predicted": 44.43283582089552,
+    "correlation": 0.9880929019845232
+  },
+  "counting_test": {
+    "images": 331,
+    "mae": 6.356495468277946,
+    "rmse": 8.488841084666685,
+    "bias": 2.785498489425982,
+    "mean_true": 37.11480362537765,
+    "mean_predicted": 39.90030211480362,
+    "correlation": 0.9043885145118198,
+    "total_true": 12285,
+    "total_predicted": 13207
+  },
+  "counting_settings": {
+    "confidence_threshold": 0.25,
+    "image_size": 960,
+    "checkpoint": "weights/apple-yolo11n-best.pt"
+  }
+}

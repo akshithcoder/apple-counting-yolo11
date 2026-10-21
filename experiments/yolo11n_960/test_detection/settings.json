@@ -1,0 +1,19 @@
+{
+  "weights": "weights/apple-yolo11n-best.pt",
+  "weights_sha256": "b9710b229f9f0be979061b359f239fa2f35e36d4ee1d09691d58be1f44ca2807",
+  "data": "data/yolo/dataset.yaml",
+  "split": "test",
+  "image_size": 960,
+  "batch": 8,
+  "workers": 2,
+  "device": "mps",
+  "confidence_threshold": 0.001,
+  "nms_iou_threshold": 0.7,
+  "maximum_detections": 300,
+  "metric_iou_thresholds": "0.50:0.05:0.95",
+  "rectangular_batches": true,
+  "augmentation": false,
+  "python": "3.12.14",
+  "torch": "2.14.0",
+  "ultralytics": "8.4.163"
+}

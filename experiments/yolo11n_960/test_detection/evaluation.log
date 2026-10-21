@@ -1,0 +1,7 @@
+Ultralytics 8.4.163 🚀 Python-3.12.14 torch-2.14.0 MPS (Apple M4 Pro)
+YOLO11n summary (fused): 100 layers, 2,582,347 parameters, 0 gradients, 6.4 GFLOPs
+val: Fast image access ✅ (ping: 0.0±0.0 ms, read: 2337.0±151.3 MB/s, size: 1893.8 KB)
+val: New cache created: data/yolo/labels/test.cache
+                   all        331      12285      0.803      0.683      0.781      0.422
+Speed: 0.2ms preprocess, 1.7ms inference, 0.0ms loss, 5.0ms postprocess per image
+Results saved to runs/test-detection/yolo11n-960

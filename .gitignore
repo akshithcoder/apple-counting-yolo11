@@ -1,0 +1,27 @@
+# Local environments and Python artifacts
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.ruff_cache/
+.coverage
+
+# Downloaded MinneApple data and generated YOLO labels
+data/*
+!data/README.md
+
+# Generated runs and local prediction outputs
+runs/
+previews/
+
+# Downloaded or newly trained checkpoints; retain only the verified release model
+*.pt
+!weights/apple-yolo11n-best.pt
+
+# Editor and operating-system files
+.DS_Store
+.idea/
+.vscode/

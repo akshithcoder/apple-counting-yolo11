@@ -1,0 +1,15 @@
+# Reconstructed from the saved Ultralytics run configuration.
+model: yolo11n.pt
+data: data/yolo/dataset.yaml
+epochs: 30
+imgsz: 960
+batch: 8
+device: mps
+workers: 2
+patience: 15
+seed: 0
+deterministic: true
+pretrained: true
+project: runs/detect
+name: apple
+exist_ok: true
